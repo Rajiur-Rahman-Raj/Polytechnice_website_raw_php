@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>polytechnic</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700,800,900|Oxygen:300,400,700" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- nivo slider link start -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontend/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fontend/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fontend/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fontend/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="fontend/css/nivo-slider.css">
+    <!-- nivo slider link finish -->
+    <link rel="stylesheet" href="fontend/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontend/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fontend/css/slick.css">
+    
+    <link rel="stylesheet" href="fontend/css/style.css">
+    <link rel="stylesheet" href="fontend/css/responsive.css">
+
+    <style>
+        #menu {
+            background: #333433 !important;
+        }
+        .search_hover{
+            background:black !important;
+        }
+        .search_hover:hover{
+            background: red !important;
+        }
+        #narrow h3 {
+            background: #333433;
+        }
+        #content .welcome a {
+            background: #333433;
+        }
+        #content .department i {
+            width: 90px;
+            height: 90px;
+            color: #a73106;
+            border: 1px solid #333;
+            border-radius: 50%;
+            cursor: pointer;
+            transition:all .7s ease;
+        }
+        #content .department i:hover{
+            background:#ddd !important;
+            transform:scale(1.3,1.3);
+            color:#333;
+
+        }
+        #counter .count-overlay i{
+            transition:all 1s ease;
+            cursor:pointer;
+
+        }
+        #counter .count-overlay i:hover{
+            background:#e2e1e1  !important;
+            transform:rotate(360deg);
+            color:black;
+        }
+        #blog .blog-item a:hover {
+            color: #d22f17;
+        }
+        #foot .soci ul li i {
+            color: #f0eaea;
+        }
+        #menu nav ul li a:hover{
+            color:#ff5656;
+        }
+        #content .princi .message p a {
+            color: #cb0a0a;
+        }
+        #content .welcome a, .bistarito {
+            text-transform: uppercase;
+            font-family: 'Alegreya Sans', sans-serif;
+            font-size: 16px;
+            padding: 8px 20px;
+            color: #fff;
+            float: right;
+            background: #931313;
+            border-radius: 4px;
+            box-shadow: 4px 3px 4px 0px #747474;
+        }
+        #content .princi h4 {
+            color: #00be89;
+            font-family: 'Oxygen', sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+            text-transform: capitalize;
+            font-weight: 500;
+            margin-top: 55px !important;
+            display: block;
+        }
+        #content h2 {
+            font-size: 26px;
+            text-transform: uppercase;
+            color: #222;
+            font-family: 'Alegreya Sans', sans-serif;
+            padding-bottom: 20px;
+            text-align: center;
+            background: #278fb7;
+            color: white;
+            padding: 10px;
+        }
+        #gallary img {
+            width: 100%;
+            margin-top: 33px;
+            height: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="home">
+        <!--  head part starts  -->
+        <?php include 'fontend/header_part.php'; ?>
+        <!-- menu part end -->
+
+        <!--    marque starts -->
+        <?php include 'fontend/latest_news.php'; ?>
+        <!--    marque ends -->
+    </div>
+   
+
+    <!-- blog start -->
+    <?php include 'fontend/blog.php'; ?>
+    <!-- blog end -->
+
+    <!-- footer top starts -->
+    <?php include 'fontend/footer_top.php'; ?>
+    <!-- footer top ends -->
+
+    
+    <!-- top to -->
+
+
+    <script src="fontend/js/jquery-1.9.0.min.js"></script>
+    <script src="fontend/js/bootstrap.min.js"></script>
+    <script src="fontend/js/mixitup.min.js"></script>
+    <script src="fontend/js/slick.min.js"></script>
+    <script src="fontend/js/custom.js"></script>
+    <script src="fontend/js/scroll_to_top.js"></script>
+    <script type="text/javascript" src="fontend/js/jquery.nivo.slider.js"></script>
+
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+
+</html>
